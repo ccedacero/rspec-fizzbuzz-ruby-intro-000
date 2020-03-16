@@ -6,7 +6,6 @@ def fizzbuzz(int)
   elsif int % 3 == 0 && int % 5 == 0 
     print "fizzbuzz"
 end
-return nil
 end 
 
 # Don't forget! This file needs to be 'required' in its spec file
