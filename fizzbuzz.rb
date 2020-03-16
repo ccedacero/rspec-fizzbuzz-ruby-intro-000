@@ -5,9 +5,8 @@ def fizzbuzz(int)
     puts "Buzz"
   elsif (int % 3 == 0 && int % 5 == 0) 
     puts "fizzbuzz"
-  else 
-  return nil 
 end
+return nil
 end 
 
 # Don't forget! This file needs to be 'required' in its spec file
